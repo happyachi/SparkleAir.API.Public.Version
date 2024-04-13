@@ -1,0 +1,294 @@
+﻿{
+   "CodeGenerationMode": 4,
+   "ContextClassName": "AppDbContext",
+   "ContextNamespace": null,
+   "DefaultDacpacSchema": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": "Models",
+   "PreserveCasingWithRegex": true,
+   "ProjectRootNamespace": "SparkleAir.Infa.EFModel",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 2,
+   "SelectedToBeGenerated": 0,
+   "T4TemplatePath": null,
+   "Tables": [
+      {
+         "Name": "[dbo].[AirBookSeats]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AirCabinRules]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AirCabins]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AirCabinSeats]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AirFlightManagements]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AirFlights]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AirFlightSaleStatuses]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AirFlightSeats]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AirFlightStatuses]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AirMeals]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AirOwns]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AirPorts]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AirTakeOffStatuses]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AirTypes]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AriTicketPrices]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Campaigns]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CampaignsCouponAirFlights]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CampaignsCouponMembers]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CampaignsCoupons]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CampaignsDiscountMembers]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CampaignsDiscounts]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CampaignsDiscountStatusNotifications]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CampaignsDiscountTFItems]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CampaignsFlightCouponsUsageHistory]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CampaignsTFDiscountUsageHistory]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CompanyDepartments]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CompanyJobs]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CompanyStaffLoginLogs]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CompanyStaffs]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CompanyStaffsChangePasswordLogs]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Countries]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[LuggageOrders]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Luggages]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MemberClasses]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MemberLoginLogs]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Members]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MessageBoxes]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Messages]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MileageDetails]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MileApply]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MileOrders]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PermissionGroups]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PermissionGroupsAddStaffs]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PermissionPageInfos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PermissionSettings]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SeatAreas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SeatGroups]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TFCategories]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TFItems]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TFOrderlists]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TFOrderStatuses]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TFReservelists]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TFReserves]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TFWishlists]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TicketCancels]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TicketCancelStatuses]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TicketDetails]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TicketInvoicingDetails]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Tickets]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransferMethods]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransferPayments]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TransferRefunds]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TypeofPassengers]",
+         "ObjectType": 0
+      }
+   ],
+   "UiHint": "sparkle\\sql2024.dbAirSparkle.dbo",
+   "UncountableWords": null,
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDateOnlyTimeOnly": true,
+   "UseDbContextSplitting": false,
+   "UseDecimalDataAnnotationForSprocResult": true,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": true,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UsePrefixNavigationNaming": false,
+   "UseSchemaFolders": false,
+   "UseSchemaNamespaces": false,
+   "UseSpatial": false,
+   "UseT4": false
+}

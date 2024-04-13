@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Hangfire.AspNetCore" Version="1.8.11" />
+    <PackageReference Include="Hangfire.Core" Version="1.8.11" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SparkleAir.DAL.DapperRepository\SparkleAir.DAL.DapperRepository.csproj" />
+    <ProjectReference Include="..\SparkleAir.DAL.DTORepository\SparkleAir.DAL.DTORepository.csproj" />
+    <ProjectReference Include="..\SparkleAir.DAL.EFRepository\SparkleAir.DAL.EFRepository.csproj" />
+    <ProjectReference Include="..\SparkleAir.IDAL.IRepository\SparkleAir.IDAL.IRepository.csproj" />
+    <ProjectReference Include="..\SparkleAir.Infa.Criteria\SparkleAir.Infa.Criteria.csproj" />
+    <ProjectReference Include="..\SparkleAir.Infa.Dto\SparkleAir.Infa.Dto.csproj" />
+    <ProjectReference Include="..\SparkleAir.Infa.EFModel\SparkleAir.Infa.EFModel.csproj" />
+    <ProjectReference Include="..\SparkleAir.Infa.Entity\SparkleAir.Infa.Entity.csproj" />
+    <ProjectReference Include="..\SparkleAir.Infa.Utility\SparkleAir.Infa.Utility.csproj" />
+  </ItemGroup>
+
+</Project>

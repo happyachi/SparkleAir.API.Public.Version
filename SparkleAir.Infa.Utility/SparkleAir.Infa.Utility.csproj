@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="NewFolder\**" />
+    <EmbeddedResource Remove="NewFolder\**" />
+    <None Remove="NewFolder\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ECPay.Payment.Integration" Version="1.0.0.8" />
+    <PackageReference Include="Google.Apis.Docs.v1" Version="1.67.0.3193" />
+    <PackageReference Include="Google.Apis.Drive.v3" Version="1.67.0.3309" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.3" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SparkleAir.Infa.Criteria\SparkleAir.Infa.Criteria.csproj" />
+    <ProjectReference Include="..\SparkleAir.Infa.Dto\SparkleAir.Infa.Dto.csproj" />
+    <ProjectReference Include="..\SparkleAir.Infa.EFModel\SparkleAir.Infa.EFModel.csproj" />
+    <ProjectReference Include="..\SparkleAir.Infa.Entity\SparkleAir.Infa.Entity.csproj" />
+  </ItemGroup>
+
+</Project>

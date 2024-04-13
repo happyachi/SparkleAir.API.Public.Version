@@ -1,0 +1,6 @@
+@SparkleAir.Front.API_HostAddress = http://localhost:5042
+
+GET {{SparkleAir.Front.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

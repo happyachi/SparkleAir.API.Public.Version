@@ -1,5 +1,7 @@
 # Sparkle Airline（後端.NET CORE 8 API 專案）
 
+前端 Vue 專案連結：[前端 Vue 專案](https://github.com/happyachi/SparkleAir.Vue.Project.Public.Version)
+
 ## 資展國際（原資策會）C#全端工程師養成班
 
 ## FUEN31【第六組】
@@ -26,7 +28,7 @@
 
 SQL 資料結構：**SparkleDb.sql** <br>
 簡報內容：**FUEN31-第六組.pdf** <br>
-線上簡報：[線上簡報](https://www.canva.com/design/DAGB-m9GOLg/kwapVd9iphgQarkrzTlhXQ/view?utm_content=DAGB-m9GOLg&utm_campaign=designshare&utm_medium=link&utm_source=editor).
+線上簡報：[線上簡報](https://www.canva.com/design/DAGB-m9GOLg/kwapVd9iphgQarkrzTlhXQ/view?utm_content=DAGB-m9GOLg&utm_campaign=designshare&utm_medium=link&utm_source=editor)
 
 ## 後端架構（三層式架構）
 

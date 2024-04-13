@@ -1,4 +1,4 @@
-# Sparkle Airline
+# Sparkle Airline（後端.NET CORE 8 API 專案）
 
 ## 資展國際（原資策會）C#全端工程師養成班
 
